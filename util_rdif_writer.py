@@ -3,7 +3,7 @@ class RFIDWriter:
         pass
 
     def __main__(self):
-        pass
+        return "pass"
 
-    def __write__(self):
-        pass
+    def __write__(self, ticket):
+        return "pass"

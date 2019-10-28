@@ -3,7 +3,7 @@ class RFIDReader:
         pass
 
     def __main__(self):
-        pass
+        return "pass"
 
     def __read__(self):
-        pass
+        return "pass"

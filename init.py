@@ -49,13 +49,15 @@ from module_sort_and_assign import SortAndAssign
 
 
 def process_one():
-    barcode_2_rfid = Barcode2RFID.__init__()
-    barcode_2_rfid.run()
+    # barcode_2_rfid = Barcode2RFID()
+    # barcode_2_rfid.run()
+    pass
 
 
 def process_two():
-    sort_and_assign = SortAndAssign.__init__()
-    sort_and_assign.run()
+    # sort_and_assign = SortAndAssign()
+    # sort_and_assign.run()
+    pass
 
 
 def __main__():

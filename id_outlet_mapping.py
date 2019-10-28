@@ -20,6 +20,7 @@ class IDOutletMapping:
         # return outlet_id (key) if found
         # else return None
         pass
+        return "pass"
 
     """
         __delete_mapping__
