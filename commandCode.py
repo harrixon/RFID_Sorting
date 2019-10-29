@@ -1,3 +1,7 @@
+"""
+command codes for RFID reader/writter
+"""
+
 commands = {}
 
 """
