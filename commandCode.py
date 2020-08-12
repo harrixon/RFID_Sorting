@@ -5,7 +5,7 @@ command codes for RFID reader/writter
 commands = {}
 
 """
-getHardwareInfoCmd
+getHardwareInfo
 
 Header:      AA
 Type:        00
@@ -16,10 +16,10 @@ Parameter:   00
 Checksum:    04
 End:         DD
 """
-commands["getHardwareInfoCmd"] = "AA000300010004DD"
+commands["getHardwareInfo"] = "AA000300010004DD"
 
 """
-singleReadCmd
+singleRead
 
 Header:      AA
 Type:        00
@@ -29,5 +29,5 @@ PL (LSB):    00    (less significant bit)
 Checksum:    22
 End:         DD
 """
-commands["singleReadCmd"] = "AA0022000022DD"
+commands["singleRead"] = "AA0022000022DD"
 
